@@ -15,14 +15,11 @@
 #include <cstdlib>
 #include <cstddef>
 #include <iostream>
+#include <exception>
+#include <memory>
 #include <sstream>
 #include <string>
 #include <vector>
-
-#ifdef PERFORMANCE_TEST_ODB_FOR_SQL_ENABLED
-  #include <exception>
-  #include <memory>
-#endif
 
 #include <boost/algorithm/string.hpp>
 
